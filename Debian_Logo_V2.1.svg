@@ -1,24 +1,23 @@
-<svg viewBox="-15 -14.5 27.5 31.5"
-     style="background-color:#a80030"
-     xmlns="http://www.w3.org/2000/svg">
-  <path d="M-1.124-2.782a3 3 0 0 0-.376 5.38
-           m3.25-5.629a3.5 3.5 0 1 0-1.811 6.53
-           m-2.767-.671A4 4 0 0 0 2 3.464
-           m-3.83.647A4.5 4.5 0 0 0 3.546 2.77
-           M2.5 4.33a5 5 0 0 0 2.372-3.205
-           m-.538 2.261a5.5 5.5 0 0 0 1.025-4.623
-           m.379 2.991A6 6 0 0 0 5.196-3
-           M6.475.567a6.5 6.5 0 0 0-1.879-5.163
-           M6.948-.853a7 7 0 0 0-3.662-5.328
-           M6.954-2.81A7.5 7.5 0 0 0-.262-7.495
-           m6.815 2.906a8 8 0 0 0-12.77-.446
-           m13.578.785A8.5 8.5 0 0 0-8.248-2.056
-           m14.5-4.418A9 9 0 0 0-7.092 5.541
-           M-.828-9.464A9.5 9.5 0 0 0-6.834 6.598
-           m.816-14.584A10 10 0 0 0-6.157 7.88
-           m-3.508-3.777a10.5 10.5 0 0 0 4.415 4.99
-           m-3.051-1.876a11 11 0 0 0 4.359 3.052
-           m-2.489-.735a11.5 11.5 0 0 0 4.04 1.715
-           m-1.713.027A12 12 0 0 0 0 12"
-    fill="none" stroke="#fff" stroke-width=".25"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-800 -650 1450 1450" style="background-color:#a80030">
+  <g transform="scale(1 -1)" fill="none" stroke="#fff" stroke-width="12.5">
+    <circle r="150" stroke-dasharray="335.1 607.4" stroke-dashoffset="-293.2"/>
+    <circle r="175" stroke-dasharray="638.4 461.2" stroke-dashoffset="-183.3"/>
+    <circle r="200" stroke-dasharray="261.8 994.8" stroke-dashoffset="-785.4"/>
+    <circle r="225" stroke-dasharray="298.5 1115.2" stroke-dashoffset="-966"/>
+    <circle r="250" stroke-dasharray="205.1 1365.7" stroke-dashoffset="-1309"/>
+    <circle r="275" stroke-dasharray="244.8 1483.1" stroke-dashoffset="182.2"/>
+    <circle r="300" stroke-dasharray="246.1 1639.1" stroke-dashoffset="89"/>
+    <circle r="325" stroke-dasharray="283.6 1758.5" stroke-dashoffset="28.4"/>
+    <circle r="350" stroke-dasharray="336 1863.1" stroke-dashoffset="-42.8"/>
+    <circle r="375" stroke-dasharray="458.1 1898" stroke-dashoffset="-144"/>
+    <circle r="400" stroke-dasharray="740 1773.3" stroke-dashoffset="-244.3"/>
+    <circle r="425" stroke-dasharray="1008.8 1661.4" stroke-dashoffset="-222.5"/>
+    <circle r="450" stroke-dasharray="1350.9 1476.5" stroke-dashoffset="-361.3"/>
+    <circle r="475" stroke-dasharray="1069.6 1914.9" stroke-dashoffset="-787.7"/>
+    <circle r="500" stroke-dasharray="916.3 2225.3" stroke-dashoffset="-1108.3"/>
+    <circle r="525" stroke-dasharray="366.5 2932.1" stroke-dashoffset="-1860.1"/>
+    <circle r="550" stroke-dasharray="268.8 3186.9" stroke-dashoffset="-2121.4"/>
+    <circle r="575" stroke-dasharray="220.8 3391.9" stroke-dashoffset="-2368.1"/>
+    <circle r="600" stroke-dasharray="209.4 3560.5" stroke-dashoffset="-2618"/>
+  </g>
 </svg>
