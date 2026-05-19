@@ -1,27 +1,32 @@
-\documentclass[tikz,border=5cm]{standalone}
+\documentclass[tikz,border=10cm]{standalone}
 \definecolor{red}{HTML}{A80030}
 \begin{document}
 \pagecolor{red}
   \begin{tikzpicture}
-    \draw[white,line width=2.5mm]
-      (130 : 3) arc (130 : 230 : 3)
-      (50 : 3.5) arc (50 : 265 : 3.5)
-      (220 : 4) arc (220 : 290 : 4)
-      (255 : 4.5) arc (255 : 320 : 4.5)
-      (305 : 5) arc (305 : 345 : 5)
-      (-35 : 5.5) arc (-35 : 10 : 5.5)
-      (-15 : 6) arc (-15 : 25 : 6)
-      (0 : 6.5) arc (0 : 45 : 6.5)
-      (10 : 7) arc (10 : 60 : 7)
-      (25 : 7.5) arc (25 : 85 : 7.5)
-      (20 : 8) arc (20 : 140 : 8)
-      (35 : 8.5) arc (35 : 170 : 8.5)
-      (50 : 9) arc (50 : 215 : 9)
-      (100 : 9.5) arc (100 : 220 : 9.5)
-      (130 : 10) arc (130 : 230 : 10)
-      (205 : 10.5) arc (205 : 240 : 10.5)
-      (225 : 11) arc (225 : 250 : 11)
-      (240 : 11.5) arc (240 : 260 : 11.5)
-      (255 : 12) arc (255 : 270 : 12);
+    \foreach \start / \finish [count=\i from 6] in {%
+      130 / 230,
+      50  / 265,
+      220 / 290,
+      255 / 320,
+      305 / 345,
+      -35 / 10,
+      -15 / 25,
+      0   / 45,
+      10  / 60,
+      25  / 85,
+      35  / 140,
+      30  / 170,
+      60  / 210,
+      100 / 220,
+      135 / 230,
+      205 / 240,
+      225 / 250,
+      240 / 260,
+      255 / 270%
+    } {%
+      \draw[line width=5mm,white,overlay]
+        (\start : \i) arc (\start : \finish : \i);
+      }
+    \path (-24.5,-24) rectangle (18.5,19);
   \end{tikzpicture}
 \end{document}
