@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-800 -650 1450 1450" style="background-color:#a80030">
   <style>
-    @keyframes dataStream{0%,20%{stroke-width:15;stroke-dasharray:var(--base-dash);stroke-dashoffset:var(--base-offset)}40%,60%{stroke-width:0;stroke-dasharray:0 var(--circumference);stroke-dashoffset:calc(var(--base-offset) - (var(--circumference)*var(--speed-mult)*.2))}80%,to{stroke-width:15;stroke-dasharray:var(--base-dash);stroke-dashoffset:calc(var(--base-offset) - (var(--circumference)*var(--speed-mult)))}}.pulse-track{--circumference:calc(2 * pi * var(--r) * 1px);animation:dataStream 10s cubic-bezier(.8,0,.2,1) infinite;transform-origin:center}.cw-slow{--speed-mult:-2}.cw-fast{--speed-mult:-1}
+    @keyframes dataStream{0%,20%{stroke-width:15;stroke-dasharray:var(--base-dash);stroke-dashoffset:var(--base-offset)}40%,60%{stroke-width:0;stroke-dasharray:0 var(--circumference);stroke-dashoffset:calc(var(--base-offset) - (var(--circumference)*var(--speed-mult)*.2))}90%,to{stroke-width:15;stroke-dasharray:var(--base-dash);stroke-dashoffset:calc(var(--base-offset) - (var(--circumference)*var(--speed-mult)))}}.pulse-track{--circumference:calc(2 * pi * var(--r) * 1px);animation:dataStream 10s cubic-bezier(.8,0,.2,1) infinite;transform-origin:center}.cw-slow{--speed-mult:-2}.cw-fast{--speed-mult:-1}
   </style>
   <path fill="#a80030" d="M-1500-1500h3000v3000h-3000z"/>
   <g transform="scale(1 -1)" fill="none" stroke="#fff">
