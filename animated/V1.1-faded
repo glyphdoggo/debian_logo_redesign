@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-800 -650 1450 1450" style="background-color:#a80030">
+  <style>
+    @keyframes dataStream{0%,25%{stroke-dashoffset:var(--base-offset)}75%,to{stroke-dashoffset:calc(var(--base-offset) - (var(--circumference)*var(--speed-mult)))}}@keyframes pulseCore{0%,25%,75%,to{opacity:1}35%,65%{opacity:0}}.pulse-track{--circumference:calc(2 * 3.14159265 * var(--r) * 1px);animation:dataStream 10s cubic-bezier(.95,0,.05,1) infinite,pulseCore 10s ease-in-out infinite;transform-origin:center}.cw-slow{--speed-mult:-3}.cw-fast{--speed-mult:-2}
+  </style>
+  <path fill="#a80030" d="M-1500-1500h3000v3000h-3000z"/>
+  <g transform="scale(1 -1)" fill="none" stroke="#fff" stroke-width="30">
+    <circle r="150" class="pulse-track cw-slow" stroke-dasharray="523.6 418.9" style="animation-delay:0s;--r:150;--base-offset:-104.7px;stroke-dashoffset:var(--base-offset)"/>
+    <circle r="200" class="pulse-track cw-fast" stroke-dasharray="314.2 942.5" style="animation-delay:.05s;--r:200;--base-offset:-733.3px;stroke-dashoffset:var(--base-offset)"/>
+    <circle r="250" class="pulse-track cw-slow" stroke-dasharray="414.5 1156.3" style="animation-delay:.1s;--r:250;--base-offset:-1112.6px;stroke-dashoffset:var(--base-offset)"/>
+    <circle r="300" class="pulse-track cw-fast" stroke-dasharray="340.3 1544.7" style="animation-delay:.15s;--r:300;--base-offset:157.1px;stroke-dashoffset:var(--base-offset)"/>
+    <circle r="350" class="pulse-track cw-slow" stroke-dasharray="702.5 1496.6" style="animation-delay:.2s;--r:350;--base-offset:0px;stroke-dashoffset:var(--base-offset)"/>
+    <circle r="400" class="pulse-track cw-fast" stroke-dasharray="942.5 1570.8" style="animation-delay:.25s;--r:400;--base-offset:-174.5px;stroke-dashoffset:var(--base-offset)"/>
+    <circle r="450" class="pulse-track cw-slow" stroke-dasharray="981.7 1846.5" style="animation-delay:.3s;--r:450;--base-offset:-785.4px;stroke-dashoffset:var(--base-offset)"/>
+    <circle r="500" class="pulse-track cw-fast" stroke-dasharray="436.3 2705.3" style="animation-delay:.35s;--r:500;--base-offset:-1614.4px;stroke-dashoffset:var(--base-offset)"/>
+    <circle r="550" class="pulse-track cw-slow" stroke-dasharray="384 3071.8" style="animation-delay:.4s;--r:550;--base-offset:-2063.8px;stroke-dashoffset:var(--base-offset)"/>
+    <circle r="600" class="pulse-track cw-fast" stroke-dasharray="261.8 3508.1" style="animation-delay:.45s;--r:600;--base-offset:-2565.6px;stroke-dashoffset:var(--base-offset)"/>
+  </g>
+</svg>
