@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-800 -650 1450 1450" style="background-color:#a80030">
   <style>
-    @keyframes dataStream{to{stroke-dashoffset:calc(var(--base-offset) - (var(--circumference)*var(--speed-mult)))}}.pulse-track{--circumference:calc(2 * 3.14159265 * var(--r) * 1px);animation:dataStream 10s cubic-bezier(.85,0,.15,1) infinite}.cw-slow{--speed-mult:-1}.cw-fast{--speed-mult:-2}
+    @keyframes dataStream{to{stroke-dashoffset:calc(var(--base-offset) - (var(--circumference)*var(--speed-mult)))}}.pulse-track{--circumference:calc(2 * 3.14159265 * var(--r) * 1px);animation:dataStream 10s cubic-bezier(.85,0,.15,1) infinite}.cw-slow{--speed-mult:-3}.cw-fast{--speed-mult:-2}
   </style>
   <path fill="#a80030" d="M-1500-1500h3000v3000h-3000z"/>
   <g transform="scale(1 -1)" fill="none" stroke="#fff" stroke-width="15">
