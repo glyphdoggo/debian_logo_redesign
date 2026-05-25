@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-800 -650 1450 1450" style="background-color:#a80030">
-  <g transform="scale(1 -1)" fill="none" stroke="#fff" stroke-width="12.5">
+  <g transform="scale(1 -1)" fill="none" stroke="#fff" stroke-width="15">
     <circle r="150" stroke-dasharray="335.1 607.4" stroke-dashoffset="-293.2"/>
     <circle r="175" stroke-dasharray="638.4 461.2" stroke-dashoffset="-183.3"/>
     <circle r="200" stroke-dasharray="261.8 994.8" stroke-dashoffset="-785.4"/>
