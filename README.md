@@ -8,7 +8,7 @@ Everything in this repository is completely free and open-source. Whether you wa
 
 As you browse the repository, you will notice there are quite a few variations of the concept. To be completely honest, I am making all of them available because I simply cannot decide which version looks the best :)
 
-If you think any of the older versions look promising or are worth using as a base for your own modifications, please feel free to take them and run with it!
+If you think any of the older versions look promising or are worth using as a base for your own modifications, feel free to take them and run with it.
 
 ---
 
