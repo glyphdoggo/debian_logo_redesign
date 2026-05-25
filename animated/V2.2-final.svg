@@ -6,8 +6,8 @@
       transform-origin: center;
     }
 
-    .cw-slow { --speed-mult: -2; }
-    .cw-fast { --speed-mult: -3; }
+    .cw-slow { --speed-mult: -3; }
+    .cw-fast { --speed-mult: -2; }
 
     @keyframes dataStream {
       0%, 20% {
