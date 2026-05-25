@@ -1,14 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-800 -650 1450 1450" style="background-color: #a80030;">
   <style>
     .pulse-track {
-      /* Replaced literal 'pi' string with standard numeric constant so calc() parses correctly */
-      --circumference: calc(2 * 3.14159265 * var(--r) * 1px);
+      --circumference: calc(2 * pi * var(--r) * 1px);
       animation: dataStream 10s cubic-bezier(0.8, 0, 0.2, 1) infinite;
       transform-origin: center;
     }
 
-    .cw-slow { --speed-mult: -2; }
-    .cw-fast { --speed-mult: -3; }
+    .cw-slow { --speed-mult: -3; }
+    .cw-fast { --speed-mult: -2; }
 
     @keyframes dataStream {
       0%, 20% {
