@@ -6,8 +6,6 @@ The design was inspired by the [Debian Diversity Logo](https://www.debian.org/lo
 
 Everything in this repository is completely free and open-source. Whether you want to use these vectors for system assets, custom desktop environments, personal websites or boot animations, you are entirely welcome to do so.
 
-As you browse the repository, you will notice there are quite a few variations of the concept. To be completely honest, I am making all of them available because I simply cannot decide which version looks the best :)
-
-If you think any of the older versions look promising or are worth using as a base for your own modifications, feel free to take them and run with it.
+As you browse the repository, you will notice there are quite a few variations of the concept. To be completely honest, I am making all of them available because I simply cannot decide which version looks the best. If you think any of the older versions look promising or are worth using as a base for your own modifications, feel free to take them and run with it :)
 
 Finally, I would love for the Debian team to see this and perhaps adopt it in some capacity (as an official variant, a desktop wallpaper asset, or a community logo). But since I don't really understand the submission process, I am hosting it here on GitHub to let the community discover, share, and utilize it organically. Or until someone teaches me how to submit it properly. If you are a Debian developer or contributor and want to help point this in the right direction, feel free to reach out!
