@@ -31,24 +31,24 @@
   <path fill="#a80030" d="M-1500-1500h3000v3000h-3000z"/>
 
   <g transform="scale(1, -1)" fill="none" stroke="#ffffff">
-    <circle r="150" class="pulse-track cw-slow" style="animation-delay: -5.00s; --r: 150; --base-dash: 335.1px 607.4px;  --base-offset: -293.2px; stroke-dasharray: var(--base-dash); stroke-dashoffset: var(--base-offset);"/>
-    <circle r="175" class="pulse-track cw-fast" style="animation-delay: -4.95s; --r: 175; --base-dash: 638.4px 461.2px;  --base-offset: -183.3px; stroke-dasharray: var(--base-dash); stroke-dashoffset: var(--base-offset);"/>
-    <circle r="200" class="pulse-track cw-slow" style="animation-delay: -4.90s; --r: 200; --base-dash: 261.8px 994.8px;  --base-offset: -785.4px; stroke-dasharray: var(--base-dash); stroke-dashoffset: var(--base-offset);"/>
-    <circle r="225" class="pulse-track cw-fast" style="animation-delay: -4.85s; --r: 225; --base-dash: 298.5px 1115.2px; --base-offset: -966.0px; stroke-dasharray: var(--base-dash); stroke-dashoffset: var(--base-offset);"/>
-    <circle r="250" class="pulse-track cw-slow" style="animation-delay: -4.80s; --r: 250; --base-dash: 318.5px 1252.3px; --base-offset: -1195.6px; stroke-dasharray: var(--base-dash); stroke-dashoffset: var(--base-offset);"/>
-    <circle r="275" class="pulse-track cw-fast" style="animation-delay: -4.75s; --r: 275; --base-dash: 244.8px 1483.1px; --base-offset: 182.2px;   stroke-dasharray: var(--base-dash); stroke-dashoffset: var(--base-offset);"/>
-    <circle r="300" class="pulse-track cw-slow" style="animation-delay: -4.70s; --r: 300; --base-dash: 246.1px 1639.1px; --base-offset: 89.0px;    stroke-dasharray: var(--base-dash); stroke-dashoffset: var(--base-offset);"/>
-    <circle r="325" class="pulse-track cw-fast" style="animation-delay: -4.65s; --r: 325; --base-dash: 283.6px 1758.5px; --base-offset: 28.4px;    stroke-dasharray: var(--base-dash); stroke-dashoffset: var(--base-offset);"/>
-    <circle r="350" class="pulse-track cw-slow" style="animation-delay: -4.60s; --r: 350; --base-dash: 336.0px 1863.1px; --base-offset: -42.8px;   stroke-dasharray: var(--base-dash); stroke-dashoffset: var(--base-offset);"/>
-    <circle r="375" class="pulse-track cw-fast" style="animation-delay: -4.55s; --r: 375; --base-dash: 458.1px 1898.0px; --base-offset: -144.0px;  stroke-dasharray: var(--base-dash); stroke-dashoffset: var(--base-offset);"/>
-    <circle r="400" class="pulse-track cw-slow" style="animation-delay: -4.50s; --r: 400; --base-dash: 740.0px 1773.3px; --base-offset: -244.3px;  stroke-dasharray: var(--base-dash); stroke-dashoffset: var(--base-offset);"/>
-    <circle r="425" class="pulse-track cw-fast" style="animation-delay: -4.45s; --r: 425; --base-dash: 1008.8px 1661.4px;--base-offset: -222.5px;  stroke-dasharray: var(--base-dash); stroke-dashoffset: var(--base-offset);"/>
-    <circle r="450" class="pulse-track cw-slow" style="animation-delay: -4.40s; --r: 450; --base-dash: 1319.5px 1507.9px;--base-offset: -361.3px;  stroke-dasharray: var(--base-dash); stroke-dashoffset: var(--base-offset);"/>
-    <circle r="475" class="pulse-track cw-fast" style="animation-delay: -4.35s; --r: 475; --base-dash: 1135.9px 1848.6px;--base-offset: -721.4px;  stroke-dasharray: var(--base-dash); stroke-dashoffset: var(--base-offset);"/>
-    <circle r="500" class="pulse-track cw-slow" style="animation-delay: -4.30s; --r: 500; --base-dash: 1090.8px 2050.8px;--base-offset: -933.8px;  stroke-dasharray: var(--base-dash); stroke-dashoffset: var(--base-offset);"/>
-    <circle r="525" class="pulse-track cw-fast" style="animation-delay: -4.25s; --r: 525; --base-dash: 366.5px 2932.1px; --base-offset: -1860.1px; stroke-dasharray: var(--base-dash); stroke-dashoffset: var(--base-offset);"/>
-    <circle r="550" class="pulse-track cw-slow" style="animation-delay: -4.20s; --r: 550; --base-dash: 268.8px 3186.9px; --base-offset: -2121.4px; stroke-dasharray: var(--base-dash); stroke-dashoffset: var(--base-offset);"/>
-    <circle r="575" class="pulse-track cw-fast" style="animation-delay: -4.15s; --r: 575; --base-dash: 220.8px 3391.9px; --base-offset: -2368.1px; stroke-dasharray: var(--base-dash); stroke-dashoffset: var(--base-offset);"/>
-    <circle r="600" class="pulse-track cw-slow" style="animation-delay: -4.10s; --r: 600; --base-dash: 209.4px 3560.5px; --base-offset: -2618.0px; stroke-dasharray: var(--base-dash); stroke-dashoffset: var(--base-offset);"/>
+    <circle r="150" class="pulse-track cw-slow" style="animation-delay: -6.00s; --r: 150; --base-dash: 335.1px 607.4px;  --base-offset: -293.2px; stroke-dasharray: var(--base-dash); stroke-dashoffset: var(--base-offset);"/>
+    <circle r="175" class="pulse-track cw-fast" style="animation-delay: -5.95s; --r: 175; --base-dash: 638.4px 461.2px;  --base-offset: -183.3px; stroke-dasharray: var(--base-dash); stroke-dashoffset: var(--base-offset);"/>
+    <circle r="200" class="pulse-track cw-slow" style="animation-delay: -5.90s; --r: 200; --base-dash: 261.8px 994.8px;  --base-offset: -785.4px; stroke-dasharray: var(--base-dash); stroke-dashoffset: var(--base-offset);"/>
+    <circle r="225" class="pulse-track cw-fast" style="animation-delay: -5.85s; --r: 225; --base-dash: 298.5px 1115.2px; --base-offset: -966.0px; stroke-dasharray: var(--base-dash); stroke-dashoffset: var(--base-offset);"/>
+    <circle r="250" class="pulse-track cw-slow" style="animation-delay: -5.80s; --r: 250; --base-dash: 318.5px 1252.3px; --base-offset: -1195.6px; stroke-dasharray: var(--base-dash); stroke-dashoffset: var(--base-offset);"/>
+    <circle r="275" class="pulse-track cw-fast" style="animation-delay: -5.75s; --r: 275; --base-dash: 244.8px 1483.1px; --base-offset: 182.2px;   stroke-dasharray: var(--base-dash); stroke-dashoffset: var(--base-offset);"/>
+    <circle r="300" class="pulse-track cw-slow" style="animation-delay: -5.70s; --r: 300; --base-dash: 246.1px 1639.1px; --base-offset: 89.0px;    stroke-dasharray: var(--base-dash); stroke-dashoffset: var(--base-offset);"/>
+    <circle r="325" class="pulse-track cw-fast" style="animation-delay: -5.65s; --r: 325; --base-dash: 283.6px 1758.5px; --base-offset: 28.4px;    stroke-dasharray: var(--base-dash); stroke-dashoffset: var(--base-offset);"/>
+    <circle r="350" class="pulse-track cw-slow" style="animation-delay: -5.60s; --r: 350; --base-dash: 336.0px 1863.1px; --base-offset: -42.8px;   stroke-dasharray: var(--base-dash); stroke-dashoffset: var(--base-offset);"/>
+    <circle r="375" class="pulse-track cw-fast" style="animation-delay: -5.55s; --r: 375; --base-dash: 458.1px 1898.0px; --base-offset: -144.0px;  stroke-dasharray: var(--base-dash); stroke-dashoffset: var(--base-offset);"/>
+    <circle r="400" class="pulse-track cw-slow" style="animation-delay: -5.50s; --r: 400; --base-dash: 740.0px 1773.3px; --base-offset: -244.3px;  stroke-dasharray: var(--base-dash); stroke-dashoffset: var(--base-offset);"/>
+    <circle r="425" class="pulse-track cw-fast" style="animation-delay: -5.45s; --r: 425; --base-dash: 1008.8px 1661.4px;--base-offset: -222.5px;  stroke-dasharray: var(--base-dash); stroke-dashoffset: var(--base-offset);"/>
+    <circle r="450" class="pulse-track cw-slow" style="animation-delay: -5.40s; --r: 450; --base-dash: 1319.5px 1507.9px;--base-offset: -361.3px;  stroke-dasharray: var(--base-dash); stroke-dashoffset: var(--base-offset);"/>
+    <circle r="475" class="pulse-track cw-fast" style="animation-delay: -5.35s; --r: 475; --base-dash: 1135.9px 1848.6px;--base-offset: -721.4px;  stroke-dasharray: var(--base-dash); stroke-dashoffset: var(--base-offset);"/>
+    <circle r="500" class="pulse-track cw-slow" style="animation-delay: -5.30s; --r: 500; --base-dash: 1090.8px 2050.8px;--base-offset: -933.8px;  stroke-dasharray: var(--base-dash); stroke-dashoffset: var(--base-offset);"/>
+    <circle r="525" class="pulse-track cw-fast" style="animation-delay: -5.25s; --r: 525; --base-dash: 366.5px 2932.1px; --base-offset: -1860.1px; stroke-dasharray: var(--base-dash); stroke-dashoffset: var(--base-offset);"/>
+    <circle r="550" class="pulse-track cw-slow" style="animation-delay: -5.20s; --r: 550; --base-dash: 268.8px 3186.9px; --base-offset: -2121.4px; stroke-dasharray: var(--base-dash); stroke-dashoffset: var(--base-offset);"/>
+    <circle r="575" class="pulse-track cw-fast" style="animation-delay: -5.15s; --r: 575; --base-dash: 220.8px 3391.9px; --base-offset: -2368.1px; stroke-dasharray: var(--base-dash); stroke-dashoffset: var(--base-offset);"/>
+    <circle r="600" class="pulse-track cw-slow" style="animation-delay: -5.10s; --r: 600; --base-dash: 209.4px 3560.5px; --base-offset: -2618.0px; stroke-dasharray: var(--base-dash); stroke-dashoffset: var(--base-offset);"/>
   </g>
 </svg>
