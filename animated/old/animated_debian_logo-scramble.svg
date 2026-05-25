@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-800 -650 1450 1450" style="background-color:#a80030">
+  <style>
+    @keyframes dataStream{to{stroke-dashoffset:calc(var(--base-offset) - (var(--circumference)*var(--speed-mult)))}}.pulse-track{--circumference:calc(2 * 3.14159265 * var(--r) * 1px);animation:dataStream 5s cubic-bezier(.8,0,.2,1) infinite}.cw-slow{--speed-mult:-1}.cw-fast{--speed-mult:-2}
+  </style>
+  <path fill="#a80030" d="M-1500-1500h3000v3000h-3000z"/>
+  <g transform="scale(1 -1)" fill="none" stroke="#fff" stroke-width="15">
+    <circle r="150" stroke-dasharray="335.1 607.4" class="pulse-track cw-slow" style="--r:150;--base-offset:-293.2px;stroke-dashoffset:var(--base-offset)"/>
+    <circle r="175" stroke-dasharray="638.4 461.2" class="pulse-track cw-fast" style="--r:175;--base-offset:-183.3px;stroke-dashoffset:var(--base-offset)"/>
+    <circle r="200" stroke-dasharray="261.8 994.8" class="pulse-track cw-slow" style="--r:200;--base-offset:-785.4px;stroke-dashoffset:var(--base-offset)"/>
+    <circle r="225" stroke-dasharray="298.5 1115.2" class="pulse-track cw-fast" style="--r:225;--base-offset:-966px;stroke-dashoffset:var(--base-offset)"/>
+    <circle r="250" stroke-dasharray="318.5 1252.3" class="pulse-track cw-slow" style="--r:250;--base-offset:-1195.6px;stroke-dashoffset:var(--base-offset)"/>
+    <circle r="275" stroke-dasharray="244.8 1483.1" class="pulse-track cw-fast" style="--r:275;--base-offset:182.2px;stroke-dashoffset:var(--base-offset)"/>
+    <circle r="300" stroke-dasharray="246.1 1639.1" class="pulse-track cw-slow" style="--r:300;--base-offset:89px;stroke-dashoffset:var(--base-offset)"/>
+    <circle r="325" stroke-dasharray="283.6 1758.5" class="pulse-track cw-fast" style="--r:325;--base-offset:28.4px;stroke-dashoffset:var(--base-offset)"/>
+    <circle r="350" stroke-dasharray="336 1863.1" class="pulse-track cw-slow" style="--r:350;--base-offset:-42.8px;stroke-dashoffset:var(--base-offset)"/>
+    <circle r="375" stroke-dasharray="458.1 1898" class="pulse-track cw-fast" style="--r:375;--base-offset:-144px;stroke-dashoffset:var(--base-offset)"/>
+    <circle r="400" stroke-dasharray="740 1773.3" class="pulse-track cw-slow" style="--r:400;--base-offset:-244.3px;stroke-dashoffset:var(--base-offset)"/>
+    <circle r="425" stroke-dasharray="1008.8 1661.4" class="pulse-track cw-fast" style="--r:425;--base-offset:-222.5px;stroke-dashoffset:var(--base-offset)"/>
+    <circle r="450" stroke-dasharray="1319.5 1507.9" class="pulse-track cw-slow" style="--r:450;--base-offset:-361.3px;stroke-dashoffset:var(--base-offset)"/>
+    <circle r="475" stroke-dasharray="1135.9 1848.6" class="pulse-track cw-fast" style="--r:475;--base-offset:-721.4px;stroke-dashoffset:var(--base-offset)"/>
+    <circle r="500" stroke-dasharray="1090.8 2050.8" class="pulse-track cw-slow" style="--r:500;--base-offset:-933.8px;stroke-dashoffset:var(--base-offset)"/>
+    <circle r="525" stroke-dasharray="366.5 2932.1" class="pulse-track cw-fast" style="--r:525;--base-offset:-1860.1px;stroke-dashoffset:var(--base-offset)"/>
+    <circle r="550" stroke-dasharray="268.8 3186.9" class="pulse-track cw-slow" style="--r:550;--base-offset:-2121.4px;stroke-dashoffset:var(--base-offset)"/>
+    <circle r="575" stroke-dasharray="220.8 3391.9" class="pulse-track cw-fast" style="--r:575;--base-offset:-2368.1px;stroke-dashoffset:var(--base-offset)"/>
+    <circle r="600" stroke-dasharray="209.4 3560.5" class="pulse-track cw-slow" style="--r:600;--base-offset:-2618px;stroke-dashoffset:var(--base-offset)"/>
+  </g>
+</svg>
