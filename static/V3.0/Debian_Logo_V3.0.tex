@@ -1,0 +1,25 @@
+\documentclass[tikz,border=10cm]{standalone}
+\definecolor{red}{HTML}{A80030}
+\begin{document}
+\pagecolor{red}
+  \begin{tikzpicture}
+    \foreach \start/\finish [count=\i from 5] in {%
+      50 / 240,
+      210 / 295,
+      230 / 340,
+      310 / 380,
+      340 / 405,
+      0 / 65,
+      35 / 95,
+      25 / 140,
+      50 / 165,
+      100 / 205,
+      130 / 225,
+      195 / 240,
+      220 / 255,
+      240 / 270%
+    } {%
+      \draw [line width=1cm,white]
+        (\start : \i*1.5) arc (\start : \finish : \i*1.5);}
+  \end{tikzpicture}
+\end{document}
