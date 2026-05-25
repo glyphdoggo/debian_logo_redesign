@@ -1,6 +1,6 @@
-This repository is a personal design exercise aimed at reimagining the iconic Debian logo through a modern, kinetic lens. It is not intended as a criticism of the current timeless logo, but rather as an artistic tribute to the stability, depth, and community spirit of the Debian distribution.
+This is a personal design exercise aimed at reimagining the iconic Debian logo through a modern, kinetic lens. It is not intended as a criticism of the current timeless logo, but rather as an artistic tribute to the stability, depth, and community spirit of the Debian distribution.
 
-The design was heavily inspired by the **Debian Diversity Logo**, originally created by Valessio Brito in 2019 and featured on Debian's official website.
+The design was heavily inspired by the [Debian Diversity Logo](https://www.debian.org/logos/index.en.html), originally created by Valessio Brito in 2019.
 
 ### Intent and contribution
 
