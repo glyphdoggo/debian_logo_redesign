@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="animated/test.svg" width="200" alt="Redesigned and Animated Debian Logo Concept">
+  <img src="animated/main.svg" width="200" alt="Redesigned and animated Debian logo concept">
 </p>
 
 This is a personal design exercise aimed at reimagining the iconic Debian logo through a more modern lens. It is not intended as a criticism of the current logo, but rather as an artistic tribute to the stability, depth, and community spirit of the Debian distribution.
