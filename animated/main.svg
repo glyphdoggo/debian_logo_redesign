@@ -1,8 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-892 -829 1612 1816">
   <style>
-    @keyframes dataStream{0%,20%{stroke-width:25;stroke-dasharray:var(--base-dash);stroke-dashoffset:var(--base-offset)}40%,60%{stroke-width:0;stroke-dasharray:0 var(--circumference);stroke-dashoffset:calc(var(--base-offset) - (var(--circumference)*var(--speed-mult)*.5))}80%,to{stroke-width:25;stroke-dasharray:var(--base-dash);stroke-dashoffset:calc(var(--base-offset) - (var(--circumference)*var(--speed-mult)))}}.pulse-track{--circumference:calc(2*pi*var(--r)*1px);animation:dataStream 10s cubic-bezier(.7,0,.3,1) infinite;transform-origin:center}.slow{--speed-mult:-1}.fast{--speed-mult:-2}
+    @keyframes dataStream{0%,20%{stroke-width:25;stroke-dasharray:var(--base-dash);stroke-dashoffset:var(--base-offset)}40%,60%{stroke-width:0;stroke-dasharray:0 var(--circumference);stroke-dashoffset:calc(var(--base-offset) - (var(--circumference)*var(--speed-mult)*.5))}80%,to{stroke-width:25;stroke-dasharray:var(--base-dash);stroke-dashoffset:calc(var(--base-offset) - (var(--circumference)*var(--speed-mult)))}}.pulse-track{--circumference:calc(2*pi*var(--r)*1px);animation:dataStream 10s cubic-bezier(.7,0,.3,1) infinite;transform-origin:center}.slow{--speed-mult:-2}.fast{--speed-mult:-1}
   </style>
-  <g fill="none" stroke="#a80030" transform="scale(1 -1)">
+  <filter id="a">
+    <feDropShadow stdDeviation="15" flood-color="#000" flood-opacity="1"/>
+  </filter>
+  <g transform="scale(1 -1)" fill="none" stroke="#a80030" filter="url(#a)">
     <circle r="187.5" class="pulse-track slow" style="--r:187.5;--base-dash:621.8px 556.3px;--base-offset:-163.6px;stroke-dasharray:var(--base-dash);stroke-dashoffset:var(--base-offset)"/>
     <circle r="225" class="pulse-track fast" style="--r:225;--base-dash:333.8px 1080.0px;--base-offset:-824.7px;stroke-dasharray:var(--base-dash);stroke-dashoffset:var(--base-offset)"/>
     <circle r="262.5" class="pulse-track slow" style="--r:262.5;--base-dash:504.0px 1145.4px;--base-offset:-1053.7px;stroke-dasharray:var(--base-dash);stroke-dashoffset:var(--base-offset)"/>
