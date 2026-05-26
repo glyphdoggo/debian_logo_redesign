@@ -3,7 +3,7 @@
     @keyframes d{0%,20%{stroke-width:25;stroke-dasharray:var(--b);stroke-dashoffset:var(--o)}40%,60%{stroke-width:0;stroke-dasharray:0 var(--c);stroke-dashoffset:calc(var(--o) - var(--c)*var(--s)*.5)}80%,to{stroke-width:25;stroke-dasharray:var(--b);stroke-dashoffset:calc(var(--o) - var(--c)*var(--s))}}.p{--c:calc(2*pi*var(--r)*1px);animation:d 10s cubic-bezier(.7,0,.3,1) infinite;transform-origin:center}.s{--s:-2}.f{--s:-1}
   </style>
   <filter id="a">
-    <feDropShadow dx="45" dy="-35" stdDeviation="15"/>
+    <feDropShadow dx="50" dy="-30" stdDeviation="20"/>
   </filter>
   <g transform="scale(1 -1)" fill="none" stroke="#a80030" filter="url(#a)">
     <circle r="187.5" class="p s" style="--r:187.5;--b:621.8px 556.3px;--o:-163.6px"/>
