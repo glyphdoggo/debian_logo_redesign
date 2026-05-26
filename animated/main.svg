@@ -2,9 +2,11 @@
   <style>
     @keyframes dataStream{0%,20%{stroke-width:25;stroke-dasharray:var(--base-dash);stroke-dashoffset:var(--base-offset)}40%,60%{stroke-width:0;stroke-dasharray:0 var(--circumference);stroke-dashoffset:calc(var(--base-offset) - (var(--circumference)*var(--speed-mult)*.5))}80%,to{stroke-width:25;stroke-dasharray:var(--base-dash);stroke-dashoffset:calc(var(--base-offset) - (var(--circumference)*var(--speed-mult)))}}.pulse-track{--circumference:calc(2*pi*var(--r)*1px);animation:dataStream 10s cubic-bezier(.7,0,.3,1) infinite;transform-origin:center}.slow{--speed-mult:-2}.fast{--speed-mult:-1}
   </style>
-  <filter id="a">
-    <feDropShadow stdDeviation="15" flood-color="#000" flood-opacity="1"/>
-  </filter>
+  <defs>
+    <filter id="a">
+      <feDropShadow dx="35" dy="-25" stdDeviation="15" flood-color="#000" flood-opacity="1"/>
+    </filter>
+  </defs>
   <g transform="scale(1 -1)" fill="none" stroke="#a80030" filter="url(#a)">
     <circle r="187.5" class="pulse-track slow" style="--r:187.5;--base-dash:621.8px 556.3px;--base-offset:-163.6px;stroke-dasharray:var(--base-dash);stroke-dashoffset:var(--base-offset)"/>
     <circle r="225" class="pulse-track fast" style="--r:225;--base-dash:333.8px 1080.0px;--base-offset:-824.7px;stroke-dasharray:var(--base-dash);stroke-dashoffset:var(--base-offset)"/>
