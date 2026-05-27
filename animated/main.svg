@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-892 -829 1612 1816">
   <defs>
-    <linearGradient id="a" x1="1.25" y1=".75" x2="0" y2="0">
+    <filter id="a">
+      <feDropShadow dx="50" dy="-30" stdDeviation="20"/>
+    </filter>
+    <linearGradient id="b" x1="1.25" y1=".75" x2="0" y2="0">
       <stop offset="0" style="stop-color:#9C002C"/>
       <stop offset="1" style="stop-color:#B20032"/>
     </linearGradient>
-    <filter id="b">
-      <feDropShadow dx="50" dy="-30" stdDeviation="20"/>
-    </filter>
   </defs>
   <style>
     @keyframes d{0%,20%{stroke-width:25;stroke-dasharray:var(--b);stroke-dashoffset:var(--o)}40%,60%{stroke-width:0;stroke-dasharray:0 var(--c);stroke-dashoffset:calc(var(--o) - var(--c)*var(--s)*.5)}80%,to{stroke-width:25;stroke-dasharray:var(--b);stroke-dashoffset:calc(var(--o) - var(--c)*var(--s))}}.p{--c:calc(2*pi*var(--r)*1px);animation:d 10s cubic-bezier(.7,0,.3,1) infinite;transform-origin:center}.s{--s:-2}.f{--s:-1}
   </style>
-  <g transform="scale(1 -1)" fill="none" stroke="url(#a)" filter="url(#b)">
+  <g transform="scale(1 -1)" fill="none" filter="url(#a)" stroke="url(#b)">
     <circle r="187.5" class="p s" style="--r:187.5;--b:621.8px 556.3px;--o:-163.6px"/>
     <circle r="225" class="p f" style="--r:225;--b:333.8px 1080px;--o:-824.7px"/>
     <circle r="262.5" class="p s" style="--r:262.5;--b:504px 1145.4px;--o:-1053.7px"/>
