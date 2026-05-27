@@ -3,7 +3,7 @@
     <filter id="a">
       <feDropShadow dx="50" dy="-30" stdDeviation="20"/>
     </filter>
-    <linearGradient id="b" x1="1.25" y1=".75" x2="0" y2="0">
+    <linearGradient id="b" x1="1.25" y1="0" x2="0" y2=".75">
       <stop offset="0" style="stop-color:#9C002C"/>
       <stop offset="1" style="stop-color:#B20032"/>
     </linearGradient>
