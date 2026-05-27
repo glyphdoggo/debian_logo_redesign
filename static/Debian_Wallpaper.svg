@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-1920 -1080 3840 2160" style="background:#333">
+  <defs>
+    <filter id="a">
+      <feDropShadow dx="50" dy="-30" stdDeviation="20"/>
+    </filter>
+    <linearGradient id="b" x1="1.25" y1="0" x2="0" y2=".75">
+      <stop offset="0" style="stop-color:#9C002C"/>
+      <stop offset="1" style="stop-color:#B20032"/>
+    </linearGradient>
+  </defs>
+  <path fill="#333" d="M-3300-3300h6600v6600h-6600z"/>
+  <g transform="matrix(1 0 0 -1 95 -70)" fill="none" filter="url(#a)" stroke="url(#b)" stroke-width="25">
+    <circle r="187.5" stroke-dasharray="621.8 556.3" stroke-dashoffset="-163.6"/>
+    <circle r="225" stroke-dasharray="333.8 1080" stroke-dashoffset="-824.7"/>
+    <circle r="262.5" stroke-dasharray="504 1145.4" stroke-dashoffset="-1053.7"/>
+    <circle r="300" stroke-dasharray="366.5 1518.4" stroke-dashoffset="-1623.2"/>
+    <circle r="337.5" stroke-dasharray="382.9 1737.7" stroke-dashoffset="-2003.8"/>
+    <circle r="375" stroke-dasharray="425.4 1930.8"/>
+    <circle r="412.5" stroke-dasharray="432 2160" stroke-dashoffset="-252"/>
+    <circle r="450" stroke-dasharray="903.2 1925" stroke-dashoffset="-196.3"/>
+    <circle r="487.5" stroke-dasharray="978.5 2084.7" stroke-dashoffset="-425.4"/>
+    <circle r="525" stroke-dasharray="962.1 2336.5" stroke-dashoffset="-916.3"/>
+    <circle r="562.5" stroke-dasharray="932.7 2601.7" stroke-dashoffset="-1276.3"/>
+    <circle r="600" stroke-dasharray="471.2 3298.7" stroke-dashoffset="-2042"/>
+    <circle r="637.5" stroke-dasharray="389.4 3616.5" stroke-dashoffset="-2446.1"/>
+    <circle r="675" stroke-dasharray="353.4 3887.7" stroke-dashoffset="-2827.4"/>
+  </g>
+</svg>
